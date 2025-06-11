@@ -25,22 +25,24 @@ Partial Class Form1
         Me.lblPaymentResult = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lblPaymentResult
         '
         Me.lblPaymentResult.AutoSize = True
-        Me.lblPaymentResult.Location = New System.Drawing.Point(345, 102)
+        Me.lblPaymentResult.Location = New System.Drawing.Point(307, 82)
         Me.lblPaymentResult.Name = "lblPaymentResult"
-        Me.lblPaymentResult.Size = New System.Drawing.Size(57, 20)
+        Me.lblPaymentResult.Size = New System.Drawing.Size(48, 16)
         Me.lblPaymentResult.TabIndex = 0
         Me.lblPaymentResult.Text = "Label1"
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(253, 254)
+        Me.Button1.Location = New System.Drawing.Point(225, 203)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(204, 109)
+        Me.Button1.Size = New System.Drawing.Size(181, 87)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
@@ -48,21 +50,33 @@ Partial Class Form1
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(104, 104)
+        Me.CheckBox1.Location = New System.Drawing.Point(92, 83)
+        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(116, 24)
+        Me.CheckBox1.Size = New System.Drawing.Size(97, 20)
         Me.CheckBox1.TabIndex = 2
         Me.CheckBox1.Text = "CheckBox1"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(521, 236)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 3
+        Me.Button2.Text = "Button2"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(711, 360)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.lblPaymentResult)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
@@ -73,4 +87,5 @@ Partial Class Form1
     Friend WithEvents lblPaymentResult As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents Button2 As Button
 End Class
