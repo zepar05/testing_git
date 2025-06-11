@@ -10,6 +10,6 @@
         MsgBox("bye")
         Me.Hide()
         Form2.Show()
-
+        'comment
     End Sub
 End Class
